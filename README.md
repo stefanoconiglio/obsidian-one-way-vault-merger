@@ -27,3 +27,6 @@ If you're an iPhone user and use iCloud, what you want to do is: 1) compress you
 You can carry out a safe merge in 1 click by running the `oowvm-runner.sh` script from your Obsidian folder. In it, set the environment varibles $folderA and $folderB to the appropriate values on lines 5 and 6. `oowvm-runner.sh` will make a timestamped backup copy of $folderB before running `oowvm.sh`.
 
 You can download the magnificent Obsidian [here](https://obsidian.md).
+
+# Acks
+A shoutout to (this great thread)[https://unix.stackexchange.com/questions/444946/how-can-we-run-a-command-stored-in-a-variable] on Stackoverflow on running bash commands stored in variables.
