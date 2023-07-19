@@ -29,4 +29,4 @@ You can carry out a safe merge in 1 click by running the `oowvm-runner.sh` scrip
 You can download the magnificent Obsidian [here](https://obsidian.md).
 
 # Acks
-A shoutout to (this great thread)[https://unix.stackexchange.com/questions/444946/how-can-we-run-a-command-stored-in-a-variable] on Stackoverflow on running bash commands stored in variables.
+A shoutout to [this great thread](https://unix.stackexchange.com/questions/444946/how-can-we-run-a-command-stored-in-a-variable) on Stackoverflow on running bash commands stored in variables.
