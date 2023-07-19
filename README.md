@@ -10,6 +10,8 @@ In more detail:
 - the content of pair .md file contained in folder A that is also contained in folder B is appended to its twin in folder B and the .md file removed from folder A
 - every .md file that is only contained in folder A is moved to folder B.
 
+The script comes with a testing script called `oowvm-run-test.sh`, to be primed by running `oowvm-setup-test.sh`.
+
 (*) The unique identifier is the numemr of seconds since 1970-01-01 00:00:00 UTC.
 (**) Uniquify is not a word, I know ;)
 
@@ -18,6 +20,6 @@ In more detail:
 chmod +x oowvm.sh
 ./oowvm.sh folderA folderB
 ```
-The script comes with a testing script called `oowvm-run-test.sh`, to be primed by running `oowvm-setup-test.sh`.
+If you're an iPhone user and use iCloud, what you want to do is: 1) compress your iCould vault from your iPhone; 2) download it to your PC from this [url](https://www.icloud.com/iclouddrive); 3) decompress the zipped vault; 4) run my bash script.
 
 You can download the magnificent Obsidian [here](https://obsidian.md).
