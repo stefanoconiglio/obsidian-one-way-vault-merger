@@ -5,10 +5,10 @@ A simple bash script to merge and move the content (.md, .png, .jpg, and .jpeg) 
 
 In more detail:
 - every .png, .jpg, and .jpeg file in folder A is renamed by pre-pending a unique time-dependent identifier (*) to it to avoid conflits (which may arise if a file with the same name is already present in folder B)
-- every .png, .jpg, and .jpeg file in folder A is moved to folder B within the $MEDIA subfolder (which should match the "Attachment folder path" under "Options -> Files & Links" in Obsidian)
+- every .png, .jpg, and .jpeg file in folder A is moved to folder B within the $MEDIA subfolder (a hardwired environment variable set on line 4 which should match the "Attachment folder path" under "Options -> Files & Links" in Obsidian)
 - every occurrence of the .png, .jpg, and .jpeg file in the .md files in folder A is updated to its new uniquified (**) name
 - the content of each .md file contained in folder A that is also contained in folder B is appended to its twin in folder B and the .md file removed from folder A
-- files whose name matches the format `yyyy-mm-dd.md` are treated as "daily notes" and merged&moved to the $DAILYNOTES folder (which should match the "New file location" that is set under "Core plugins -> Daily notes" in Obsidian.
+- files whose name matches the format `yyyy-mm-dd.md` are treated as "daily notes" and merged&moved to the $DAILYNOTES folder (a hardwired environment variable set on line 5 which should match the "New file location" that is set under "Core plugins -> Daily notes" in Obsidian)
 - every .md file that is only contained in folder A is moved to folder B.
 
 The script comes with a testing script called `oowvm-run-test.sh`, to be primed by running `oowvm-setup-test.sh`.
