@@ -12,7 +12,7 @@ In more detail:
 
 The script comes with a testing script called `oowvm-run-test.sh`, to be primed by running `oowvm-setup-test.sh`.
 
-(*) The unique identifier is the numemr of seconds since 1970-01-01 00:00:00 UTC.
+(*) The unique identifier is the number of seconds since 1970-01-01 00:00:00 UTC.
 (**) Uniquify is not a word, I know ;)
 
 # Usage
