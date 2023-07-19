@@ -14,8 +14,9 @@ In more detail:
 
 # Usage
 ```bash
+chmod +x oowvm.sh
 ./oowvm.sh folderA folderB
 ```
-The script comes with a testing script called `test.sh`.
+The script comes with a testing script called `oowvm-run-test.sh`, to be primed by running `oowvm-setup-test.sh`.
 
 You can download the magnificent Obsidian [here](https://obsidian.md).
