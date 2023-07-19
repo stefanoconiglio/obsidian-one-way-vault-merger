@@ -15,6 +15,6 @@ In more detail:
 
 # Usage
 ```bash
-./owovm.sh folderA folderB
+./oowvm.sh folderA folderB
 ```
 The script comes with a testing script called `test.sh`.
