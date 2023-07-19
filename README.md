@@ -23,4 +23,7 @@ chmod +x oowvm.sh
 ```
 If you're an iPhone user and use iCloud, what you want to do is: 1) compress your iCould vault from your iPhone; 2) download it to your PC from this [url](https://www.icloud.com/iclouddrive); 3) decompress the zipped vault; 4) run my bash script.
 
+# 1-click-do-it-all
+You can carry out a safe merge in 1 click by running the oowvm-runner.sh script from your Obsidian folder. In it, set the environment varibles $folderA and $folderB to the appropriate values on lines 5 and 6.
+
 You can download the magnificent Obsidian [here](https://obsidian.md).
