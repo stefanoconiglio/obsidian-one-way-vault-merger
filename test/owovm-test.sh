@@ -60,7 +60,7 @@ display_content() {
 echo "Content before the merge"
 display_content
 
-../owovm.sh A B
+../oowvm.sh A B
 
 echo "Content after the merge"
 display_content
