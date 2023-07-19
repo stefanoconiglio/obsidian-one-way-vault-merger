@@ -1,4 +1,4 @@
-# One-way Obsidian vault merger
+# One-way Obsidian vault merger (OWOVM)
 A simple bash script to merge and move the content (.md, .png, .jpg, and .jpeg) of a given folder (folder A) to another given folder (folder B).
 Typical use: merging a vault on the smartphone with one's main vault on the PC.
 **CAVEAT**: One should empty their smartphone vault, as the code peforms a "blind" merge that would append an .md file below another one even if the two where identical!
